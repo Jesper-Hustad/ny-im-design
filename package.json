@@ -1,0 +1,11 @@
+{
+  "name": "figma-design",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node render-figma.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}
