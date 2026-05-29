@@ -1,0 +1,61 @@
+{
+  "title": "Med flere arbeidsforhold (ulik lønn)",
+  "id": "c5d6e7f8-a9b0-1234-8901-345678901234",
+  "tittelTillegg": null,
+  "innsendtTid": "2025-04-28T09:00:00.000000",
+  "sykmeldt": {
+    "navn": "Greta Garbo"
+  },
+  "sykmeldtFnr": "56780901234",
+  "avsender": {
+    "orgNavn": "Konsulent og Utvikling AS",
+    "navn": "Vegard Olsen",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "956780901",
+    "tlf": "77668899"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-04-01", "tom": "2025-04-16" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 65000.0,
+    "inntektsdato": "2025-04-01",
+    "endringAarsaker": []
+  },
+  "refusjon": {
+    "beloepPerMaaned": 65000.0,
+    "endringer": [],
+    "sluttdato": null
+  },
+  "naturalytelser": [],
+  "egenmeldinger": [],
+  "sykmeldingsperioder": [
+    { "fom": "2025-04-01", "tom": "2025-06-30" }
+  ],
+  "flereArbeidsforhold": {
+    "harLikLoenn": false,
+    "erSykmeldtFraAlle": false,
+    "arbeidsforhold": [
+      {
+        "inkludertISykefravaer": true,
+        "yrkesbeskrivelse": "Utvikler",
+        "stillingsprosent": 80.0,
+        "inntekt": 45000.0
+      },
+      {
+        "inkludertISykefravaer": false,
+        "yrkesbeskrivelse": "Konsulent",
+        "stillingsprosent": 20.0,
+        "inntekt": 20000.0
+      }
+    ]
+  },
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FORESPURT"
+}

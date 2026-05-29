@@ -1,0 +1,52 @@
+{
+  "title": "Med flere endringsårsaker for inntekt",
+  "id": "c9d0e1f2-a3b4-5678-2345-789012345678",
+  "tittelTillegg": null,
+  "innsendtTid": "2025-04-16T15:45:00.000000",
+  "sykmeldt": {
+    "navn": "Edvard Grieg"
+  },
+  "sykmeldtFnr": "90123456789",
+  "avsender": {
+    "orgNavn": "Musikk og Underholdning AS",
+    "navn": "Nina Larsen",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "990123456",
+    "tlf": "11223344"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-04-01", "tom": "2025-04-16" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 60000.0,
+    "inntektsdato": "2025-04-01",
+    "endringAarsaker": [
+      {
+        "aarsak": "Bonus",
+        "gjelderFra": null,
+        "bleKjent": null,
+        "perioder": null
+      },
+      {
+        "aarsak": "Tariffendring",
+        "gjelderFra": "2025-03-01",
+        "bleKjent": "2025-03-15",
+        "perioder": null
+      }
+    ]
+  },
+  "refusjon": null,
+  "naturalytelser": [],
+  "egenmeldinger": [],
+  "sykmeldingsperioder": [
+    { "fom": "2025-04-01", "tom": "2025-05-31" }
+  ],
+  "aarsakInnsending": "Endring",
+  "typeInnsending": "FORESPURT"
+}

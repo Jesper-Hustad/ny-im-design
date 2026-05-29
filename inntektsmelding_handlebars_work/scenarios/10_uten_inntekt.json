@@ -1,0 +1,35 @@
+{
+  "title": "Uten inntekt (ikke oppgitt)",
+  "id": "d0e1f2a3-b4c5-6789-3456-890123456789",
+  "tittelTillegg": null,
+  "innsendtTid": "2025-04-18T10:00:00.000000",
+  "sykmeldt": {
+    "navn": "Knut Hamsun"
+  },
+  "sykmeldtFnr": "01234567890",
+  "avsender": {
+    "orgNavn": "Landbruk og Mat AS",
+    "navn": "Solveig Holm",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "901234567",
+    "tlf": "22113344"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-04-05", "tom": "2025-04-20" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": null,
+  "refusjon": null,
+  "naturalytelser": [],
+  "egenmeldinger": [],
+  "sykmeldingsperioder": [
+    { "fom": "2025-04-05", "tom": "2025-05-20" }
+  ],
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FORESPURT"
+}

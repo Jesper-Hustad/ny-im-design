@@ -1,0 +1,47 @@
+{
+  "title": "Med refusjon og flere endringer i beløp",
+  "id": "e5f6a7b8-c9d0-1234-ef01-345678901234",
+  "tittelTillegg": null,
+  "innsendtTid": "2025-04-05T14:00:00.000000",
+  "sykmeldt": {
+    "navn": "Sigrid Undset"
+  },
+  "sykmeldtFnr": "56789012345",
+  "avsender": {
+    "orgNavn": "Rådgivning og Konsulenter AS",
+    "navn": "Thomas Berg",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "956789012",
+    "tlf": "66778899"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-03-15", "tom": "2025-03-30" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 55000.0,
+    "inntektsdato": "2025-03-15",
+    "endringAarsaker": []
+  },
+  "refusjon": {
+    "beloepPerMaaned": 55000.0,
+    "endringer": [
+      { "beloep": 45000.0, "startdato": "2025-05-01" },
+      { "beloep": 30000.0, "startdato": "2025-06-01" },
+      { "beloep": 0.0, "startdato": "2025-07-01" }
+    ],
+    "sluttdato": "2025-06-30"
+  },
+  "naturalytelser": [],
+  "egenmeldinger": [],
+  "sykmeldingsperioder": [
+    { "fom": "2025-03-15", "tom": "2025-06-30" }
+  ],
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FORESPURT"
+}

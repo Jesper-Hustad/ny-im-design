@@ -1,0 +1,49 @@
+{
+  "title": "Med endringsårsak for inntekt (ferie med perioder)",
+  "id": "b8c9d0e1-f2a3-4567-1234-678901234567",
+  "tittelTillegg": null,
+  "innsendtTid": "2025-04-14T09:20:00.000000",
+  "sykmeldt": {
+    "navn": "Camilla Collett"
+  },
+  "sykmeldtFnr": "89012345678",
+  "avsender": {
+    "orgNavn": "Finans og Forsikring AS",
+    "navn": "Anders Nilsen",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "989012345",
+    "tlf": "99001122"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-03-20", "tom": "2025-04-04" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 51000.0,
+    "inntektsdato": "2025-03-20",
+    "endringAarsaker": [
+      {
+        "aarsak": "Ferie",
+        "gjelderFra": null,
+        "bleKjent": null,
+        "perioder": [
+          { "fom": "2025-02-10", "tom": "2025-02-21" },
+          { "fom": "2025-03-03", "tom": "2025-03-07" }
+        ]
+      }
+    ]
+  },
+  "refusjon": null,
+  "naturalytelser": [],
+  "egenmeldinger": [],
+  "sykmeldingsperioder": [
+    { "fom": "2025-03-20", "tom": "2025-05-15" }
+  ],
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FORESPURT"
+}

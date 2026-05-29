@@ -1,0 +1,38 @@
+{
+  "title": "Ingen arbeidsgiverperiode",
+  "id": "f6a7b8c9-d0e1-2345-f012-456789012345",
+  "tittelTillegg": null,
+  "innsendtTid": "2025-04-10T07:45:00.000000",
+  "sykmeldt": {
+    "navn": "Bjørn Borg"
+  },
+  "sykmeldtFnr": "67890123456",
+  "avsender": {
+    "orgNavn": "Transport og Logistikk AS",
+    "navn": "Ingrid Haugen",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "967890123",
+    "tlf": "77889900"
+  },
+  "agp": null,
+  "inntekt": {
+    "beloep": 42000.0,
+    "inntektsdato": "2025-04-01",
+    "endringAarsaker": []
+  },
+  "refusjon": {
+    "beloepPerMaaned": 42000.0,
+    "endringer": [],
+    "sluttdato": null
+  },
+  "naturalytelser": [],
+  "egenmeldinger": [],
+  "sykmeldingsperioder": [
+    { "fom": "2025-04-01", "tom": "2025-05-15" }
+  ],
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FORESPURT"
+}

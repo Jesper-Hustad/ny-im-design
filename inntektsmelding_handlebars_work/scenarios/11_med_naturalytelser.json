@@ -1,0 +1,61 @@
+{
+  "title": "Med bortfall av naturalytelser",
+  "id": "e1f2a3b4-c5d6-7890-4567-901234567890",
+  "tittelTillegg": null,
+  "innsendtTid": "2025-04-20T12:30:00.000000",
+  "sykmeldt": {
+    "navn": "Liv Ullmann"
+  },
+  "sykmeldtFnr": "12340567890",
+  "avsender": {
+    "orgNavn": "Film og Teater AS",
+    "navn": "Ole Kristiansen",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "912340567",
+    "tlf": "33224455"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-04-01", "tom": "2025-04-16" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 62000.0,
+    "inntektsdato": "2025-04-01",
+    "endringAarsaker": []
+  },
+  "refusjon": {
+    "beloepPerMaaned": 62000.0,
+    "endringer": [],
+    "sluttdato": null
+  },
+  "naturalytelser": [
+    {
+      "naturalytelse": "BIL",
+      "verdiBeloep": 3500.0,
+      "sluttdato": "2025-04-01"
+    },
+    {
+      "naturalytelse": "ELEKTRONISKKOMMUNIKASJON",
+      "verdiBeloep": 500.0,
+      "sluttdato": "2025-04-01"
+    },
+    {
+      "naturalytelse": "KOSTDOEGN",
+      "verdiBeloep": 1200.0,
+      "sluttdato": "2025-04-01"
+    }
+  ],
+  "egenmeldinger": [
+    { "fom": "2025-03-28", "tom": "2025-03-31" }
+  ],
+  "sykmeldingsperioder": [
+    { "fom": "2025-04-01", "tom": "2025-05-31" }
+  ],
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FORESPURT"
+}

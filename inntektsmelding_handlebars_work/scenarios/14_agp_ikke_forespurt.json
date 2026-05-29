@@ -1,0 +1,43 @@
+{
+  "title": "AGP ikke forespurt",
+  "id": "b4c5d6e7-f8a9-0123-7890-234567890123",
+  "tittelTillegg": "arbeidsgiverperiode – ikke forespurt",
+  "innsendtTid": "2025-04-26T14:30:00.000000",
+  "sykmeldt": {
+    "navn": "Roald Dahl"
+  },
+  "sykmeldtFnr": "45670890123",
+  "avsender": {
+    "orgNavn": "IT Solutions AS",
+    "navn": "Maria Eriksen",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "945670890",
+    "tlf": "66557788"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-04-10", "tom": "2025-04-25" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 50000.0,
+    "inntektsdato": "2025-04-10",
+    "endringAarsaker": []
+  },
+  "refusjon": {
+    "beloepPerMaaned": 50000.0,
+    "endringer": [],
+    "sluttdato": null
+  },
+  "naturalytelser": [],
+  "egenmeldinger": [],
+  "sykmeldingsperioder": [
+    { "fom": "2025-04-01", "tom": "2025-06-15" }
+  ],
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FORESPURT"
+}

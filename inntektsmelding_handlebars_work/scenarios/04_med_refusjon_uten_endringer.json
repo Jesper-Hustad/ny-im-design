@@ -1,0 +1,45 @@
+{
+  "title": "Med refusjon, uten endringer",
+  "id": "d4e5f6a7-b8c9-0123-def0-234567890123",
+  "tittelTillegg": null,
+  "innsendtTid": "2025-04-02T11:30:00.000000",
+  "sykmeldt": {
+    "navn": "Jonas Lie"
+  },
+  "sykmeldtFnr": "45678901234",
+  "avsender": {
+    "orgNavn": "Handel og Kontor AS",
+    "navn": "Marte Svendsen",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "945678901",
+    "tlf": "55667788"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-03-10", "tom": "2025-03-25" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 40000.0,
+    "inntektsdato": "2025-03-10",
+    "endringAarsaker": []
+  },
+  "refusjon": {
+    "beloepPerMaaned": 40000.0,
+    "endringer": [],
+    "sluttdato": null
+  },
+  "naturalytelser": [],
+  "egenmeldinger": [
+    { "fom": "2025-03-07", "tom": "2025-03-09" }
+  ],
+  "sykmeldingsperioder": [
+    { "fom": "2025-03-10", "tom": "2025-04-30" }
+  ],
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FORESPURT"
+}

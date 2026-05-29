@@ -1,0 +1,45 @@
+{
+  "title": "Med refusjon som opphører",
+  "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+  "tittelTillegg": null,
+  "innsendtTid": "2025-04-01T08:00:00.000000",
+  "sykmeldt": {
+    "navn": "Anne Berg"
+  },
+  "sykmeldtFnr": "34567890123",
+  "avsender": {
+    "orgNavn": "Teknologi Norge AS",
+    "navn": "Erik Johansen",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "934567890",
+    "tlf": "44556677"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-03-01", "tom": "2025-03-16" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 52000.0,
+    "inntektsdato": "2025-03-01",
+    "endringAarsaker": []
+  },
+  "refusjon": {
+    "beloepPerMaaned": 52000.0,
+    "endringer": [
+      { "beloep": 0.0, "startdato": "2025-06-01" }
+    ],
+    "sluttdato": "2025-05-31"
+  },
+  "naturalytelser": [],
+  "egenmeldinger": [],
+  "sykmeldingsperioder": [
+    { "fom": "2025-03-01", "tom": "2025-05-31" }
+  ],
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FORESPURT"
+}

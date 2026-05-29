@@ -1,0 +1,46 @@
+{
+  "title": "Med endringsårsak for inntekt (varig lønnsendring)",
+  "id": "a7b8c9d0-e1f2-3456-0123-567890123456",
+  "tittelTillegg": null,
+  "innsendtTid": "2025-04-12T13:00:00.000000",
+  "sykmeldt": {
+    "navn": "Henrik Ibsen"
+  },
+  "sykmeldtFnr": "78901234567",
+  "avsender": {
+    "orgNavn": "Kultur og Media AS",
+    "navn": "Sofie Dahl",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "978901234",
+    "tlf": "88990011"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-04-01", "tom": "2025-04-16" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 48000.0,
+    "inntektsdato": "2025-04-01",
+    "endringAarsaker": [
+      {
+        "aarsak": "VarigLoennsendring",
+        "gjelderFra": "2025-03-01",
+        "bleKjent": null,
+        "perioder": null
+      }
+    ]
+  },
+  "refusjon": null,
+  "naturalytelser": [],
+  "egenmeldinger": [],
+  "sykmeldingsperioder": [
+    { "fom": "2025-04-01", "tom": "2025-05-30" }
+  ],
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FORESPURT"
+}

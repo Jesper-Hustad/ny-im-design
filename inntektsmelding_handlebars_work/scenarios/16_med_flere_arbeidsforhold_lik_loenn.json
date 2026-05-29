@@ -1,0 +1,61 @@
+{
+  "title": "Med flere arbeidsforhold (lik lønn)",
+  "id": "d6e7f8a9-b0c1-2345-9012-456789012345",
+  "tittelTillegg": null,
+  "innsendtTid": "2025-04-30T16:00:00.000000",
+  "sykmeldt": {
+    "navn": "Fridtjof Nansen"
+  },
+  "sykmeldtFnr": "67890012345",
+  "avsender": {
+    "orgNavn": "Utforskning og Eventyr AS",
+    "navn": "Helene Strand",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "967890012",
+    "tlf": "88779900"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-04-05", "tom": "2025-04-20" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 55000.0,
+    "inntektsdato": "2025-04-05",
+    "endringAarsaker": []
+  },
+  "refusjon": {
+    "beloepPerMaaned": 55000.0,
+    "endringer": [],
+    "sluttdato": null
+  },
+  "naturalytelser": [],
+  "egenmeldinger": [],
+  "sykmeldingsperioder": [
+    { "fom": "2025-04-05", "tom": "2025-06-15" }
+  ],
+  "flereArbeidsforhold": {
+    "harLikLoenn": true,
+    "erSykmeldtFraAlle": true,
+    "arbeidsforhold": [
+      {
+        "inkludertISykefravaer": true,
+        "yrkesbeskrivelse": "Prosjektleder",
+        "stillingsprosent": 50.0,
+        "inntekt": 27500.0
+      },
+      {
+        "inkludertISykefravaer": true,
+        "yrkesbeskrivelse": "Rådgiver",
+        "stillingsprosent": 50.0,
+        "inntekt": 27500.0
+      }
+    ]
+  },
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FORESPURT"
+}

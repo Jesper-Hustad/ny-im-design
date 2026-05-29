@@ -1,0 +1,39 @@
+{
+  "title": "Fisker med hyre",
+  "id": "f2a3b4c5-d6e7-8901-5678-012345678901",
+  "tittelTillegg": "fisker med hyre",
+  "innsendtTid": "2025-04-22T08:15:00.000000",
+  "sykmeldt": {
+    "navn": "Magnus Fiskersen"
+  },
+  "sykmeldtFnr": "23450678901",
+  "avsender": {
+    "orgNavn": "Norsk Fiskeri AS",
+    "navn": "Harald Knutsen",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "923450678",
+    "tlf": "44335566"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-04-01", "tom": "2025-04-16" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 35000.0,
+    "inntektsdato": "2025-04-01",
+    "endringAarsaker": []
+  },
+  "refusjon": null,
+  "naturalytelser": [],
+  "egenmeldinger": [],
+  "sykmeldingsperioder": [
+    { "fom": "2025-04-01", "tom": "2025-05-15" }
+  ],
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FISKER"
+}

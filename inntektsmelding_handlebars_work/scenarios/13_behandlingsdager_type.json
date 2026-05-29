@@ -1,0 +1,41 @@
+{
+  "title": "Behandlingsdager",
+  "id": "a3b4c5d6-e7f8-9012-6789-123456789012",
+  "tittelTillegg": "behandlingsdager",
+  "innsendtTid": "2025-04-24T11:00:00.000000",
+  "sykmeldt": {
+    "navn": "Astrid Lindgren"
+  },
+  "sykmeldtFnr": "34560789012",
+  "avsender": {
+    "orgNavn": "Helse og Omsorg AS",
+    "navn": "Petter Larsen",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "934560789",
+    "tlf": "55446677"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-03-01", "tom": "2025-03-01" },
+      { "fom": "2025-03-08", "tom": "2025-03-08" },
+      { "fom": "2025-03-15", "tom": "2025-03-15" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 47000.0,
+    "inntektsdato": "2025-03-01",
+    "endringAarsaker": []
+  },
+  "refusjon": null,
+  "naturalytelser": [],
+  "egenmeldinger": [],
+  "sykmeldingsperioder": [
+    { "fom": "2025-03-01", "tom": "2025-05-31" }
+  ],
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "BEHANDLINGSDAGER"
+}

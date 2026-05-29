@@ -1,0 +1,41 @@
+{
+  "title": "Full lønn i arbeidsgiverperioden, ingen refusjon",
+  "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "tittelTillegg": null,
+  "innsendtTid": "2025-03-15T09:30:00.000000",
+  "sykmeldt": {
+    "navn": "Ola Nordmann"
+  },
+  "sykmeldtFnr": "12345678901",
+  "avsender": {
+    "orgNavn": "Kari's Bakeri AS",
+    "navn": "Kari Hansen",
+    "systemNavn": null,
+    "systemVersjon": null
+  },
+  "arbeidsgiver": {
+    "orgnr": "912345678",
+    "tlf": "22334455"
+  },
+  "agp": {
+    "perioder": [
+      { "fom": "2025-02-01", "tom": "2025-02-16" }
+    ],
+    "redusertLoennIAgp": null
+  },
+  "inntekt": {
+    "beloep": 45000.0,
+    "inntektsdato": "2025-02-01",
+    "endringAarsaker": []
+  },
+  "refusjon": null,
+  "naturalytelser": [],
+  "egenmeldinger": [
+    { "fom": "2025-01-29", "tom": "2025-01-31" }
+  ],
+  "sykmeldingsperioder": [
+    { "fom": "2025-02-01", "tom": "2025-03-14" }
+  ],
+  "aarsakInnsending": "Ny",
+  "typeInnsending": "FORESPURT"
+}
