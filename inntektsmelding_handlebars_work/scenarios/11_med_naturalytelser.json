@@ -19,7 +19,14 @@
   },
   "agp": {
     "perioder": [
-      { "fom": "2025-04-01", "tom": "2025-04-16" }
+      {
+        "fom": "2025-03-28",
+        "tom": "2025-03-31"
+      },
+      {
+        "fom": "2025-04-01",
+        "tom": "2025-04-16"
+      }
     ],
     "redusertLoennIAgp": null
   },
@@ -51,10 +58,16 @@
     }
   ],
   "egenmeldinger": [
-    { "fom": "2025-03-28", "tom": "2025-03-31" }
+    {
+      "fom": "2025-03-28",
+      "tom": "2025-03-31"
+    }
   ],
   "sykmeldingsperioder": [
-    { "fom": "2025-04-01", "tom": "2025-05-31" }
+    {
+      "fom": "2025-04-01",
+      "tom": "2025-05-31"
+    }
   ],
   "aarsakInnsending": "Ny",
   "typeInnsending": "FORESPURT"

@@ -1,5 +1,45 @@
 # Copilot LLM Notes - Inntektsmelding Design Scenarios
 
+## Egenmelding Bug Investigation (June 2025)
+
+### Root Cause
+`Inntektsmelding` (Kotlin domain class) has NO `egenmeldinger` field.
+`PdfDokument.kt` computes egenmeldinger at render time via:
+```kotlin
+utledEgenmeldinger(agp.perioder, sykmeldingsperioder)
+```
+This returns dates that are in **agp.perioder BUT NOT in sykmeldingsperioder**.
+
+`FigmaScenarioPdfGenerator.kt` maps JSON → Kotlin `Inntektsmelding`, but never reads the `egenmeldinger` field from JSON (since the domain object has no such field).
+
+### Why egenmeldinger were missing in old PDF
+In the JSON scenario files, the `egenmeldinger` dates (e.g. Jan 29–31) came **before** agp.perioder (Feb 1–16) and before sykmeldingsperioder (Feb 1 onwards).
+Since these dates were not in `agp.perioder`, `utledEgenmeldinger` returned empty → no egenmelding dates shown.
+
+### Fix applied (cheat)
+Prepended egenmeldinger dates as first period in `agp.perioder` in 3 affected JSONs:
+- `01_standard_full_loenn_ingen_refusjon.json`: added {Jan 29–31}
+- `04_med_refusjon_uten_endringer.json`: added {Mar 7–9}
+- `11_med_naturalytelser.json`: added {Mar 28–31}
+
+Now `utledEgenmeldinger(agp.perioder, sykmeldingsperioder)` = egenmelding dates (they are in agp but not in sykmelding) → PDF shows them.
+
+**Side effect of cheat**: The AGP section in the old PDF now shows an extra period (the egenmelding dates appear twice: once under "Arbeidsgiverperiode" and once under "Egenmelding"). This is intentional per user's "ok to cheat" instruction.
+
+### Verified
+- `pdftotext` confirms egenmelding dates present in PDFs (01, 04, 11)
+- PNG rendered (pdftoppm page 1) visually shows Egenmelding section with Fra/Til dates
+- HTML page regenerated with updated PNGs
+
+### New design (right side) vs old design (left side)
+- New Handlebars template reads `egenmeldinger` field from JSON directly
+- Old Kotlin PDF computes egenmeldinger from agp − sykmelding
+- After cheat: both show same dates ✓
+
+### If browser shows old version → hard refresh (Cmd+Shift+R)
+
+
+
 ## Source Analysis
 Analyzed from: `helsearbeidsgiver-inntektsmelding/apps/joark/src/test/kotlin/.../PdfDokumentTest.kt`
 Template reference: `helsearbeidsgiver-pdfgen/templates/inntektsmelding/inntektsmelding.hbs`

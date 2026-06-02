@@ -1,1 +1,0 @@
-# ny-im-design

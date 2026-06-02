@@ -159,6 +159,7 @@ const figmaHtml = `<!DOCTYPE html>
 
         /* 2. This resets it back to normal for just these three cases */
         #scenario-1 .scenario-old img,
+        #scenario-4 .scenario-old img,
         #scenario-10 .scenario-old img,
         #scenario-12 .scenario-old img {
             margin-bottom: 0;
@@ -303,6 +304,24 @@ const figmaHtml = `<!DOCTYPE html>
 <div class="page-header">
     <h1>Inntektsmelding for sykepenger – Designscenarier</h1>
     <p>${scenarios.length} scenarier. Gammelt design til venstre, nytt design til høyre.</p>
+    <br/>
+    <p style="font-size: 18px;text-align: left;color: black;    max-width: 600px;">
+        Altinn 2 er skrudd av for alle inntektsmeldinger (inkludert LPS) etter 15 juni.
+        Dette betyr alle inntektsmeldinger saksbehandlere henter i gosys er PDF design som vises på denne siden til venstre.
+        Tilbakemeldinger fra saksbehandlere er at denne opplves å være forvirrende.
+        <br/><br/>
+        Systemet som generer disse inntektsmelding PDF er en gammel arkitektur som ønskes å forbedres
+        På denne siden er det sammenlignet mellom det eksisterende designet og et et nytt mulig design som kan implementeres
+        <br/><br/>
+        Spørsmålet er om dette nye design er noe som gir verdi til saksbehandlere.
+        Er dette et design som oppleves å være mindre forvirrende?
+        Er det spesefikke ting saksbehandlere hadde fått verdi fra å inkludere i designet?
+        <br/><br/>
+        Merk at dette er en work in progress og små feil eksisterer med data og design.
+        Fokuset er på det overordnede design og om det er en retning som er verdt å gå videre med.
+        <br/><br/>
+        Send gjerne tilbakemelding til <a href="slack://user?team=T5LNAMWNA&id=U07QBKPKWH5">Jesper Hustad på Slack</a> eller på e-post <a href="mailto:jesper.forrest.hustad@nav.no">jesper.forrest.hustad@nav.no</a>.
+    </p>
 </div>
 
 <nav class="toc">
